@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-50 text-gray-800 font-sans;
+}
+
+/* Active navigation link style */
+.active-link {
+  @apply text-green-600 font-semibold;
+}
+
+/* Reusable button style */
+.btn {
+  @apply bg-green-600 text-white px-6 py-2 rounded-full shadow 
+         hover:bg-green-700 transition duration-200;
+}
